@@ -14,7 +14,7 @@ public class TextAssignmentComponent : MonoBehaviour
         TextMeshPro nameText = nameTextGameObject.GetComponent<TextMeshPro>();
         TextMeshPro udidText = udidTextGameObject.GetComponent<TextMeshPro>();
 
-        nameText.text = "Fill in your name";
+        nameText.text = "Katie Hardy";
         udidText.text = SystemInfo.deviceUniqueIdentifier;
     }
 
