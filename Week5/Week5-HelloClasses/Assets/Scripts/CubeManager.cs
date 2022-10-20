@@ -34,7 +34,6 @@ public class CubeManager : MonoBehaviour
         edgeLengthText = edgeLengthTextObject.GetComponent<TextMeshProUGUI>();
         volumeText = volumeTextObject.GetComponent<TextMeshProUGUI>();
 
-        // Calls basic constructor, but sets height, width, and length to 0
         myCube = new Cube();
 
         GetValuesFromSliders();

@@ -16,7 +16,6 @@ public class Cube
 
     public Cube(float newHeight, float newWidth, float newLength)
     {
-        // Should consider testing for positive numbers before accepting the parameters
 
         height = newHeight;
         width = newWidth;
